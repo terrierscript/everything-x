@@ -12,7 +12,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <KumaRegistry>{children}</KumaRegistry>
+        <KumaRegistry>
+          {children}
+        </KumaRegistry>
       </body>
     </html>
   )
