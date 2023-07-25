@@ -15,7 +15,7 @@ export const InputForm = () => {
     <VStack textAlign={"center"} gap={8} alignItems={"center"}>
       <Input borderRadius={40} border="#ccc solid 1px"
         color="#333"
-        px={8} placeholder="𝕀𝕟𝕡𝕦𝕥 𝕙𝕖𝕣𝕖" textAlign={"center"} fontSize={"4vw"}
+        px={8} placeholder="Input here" textAlign={"center"} fontSize={"6vmin"}
         maxWidth="90vw"
         size={40}
         value={text} onChange={(e) => {
