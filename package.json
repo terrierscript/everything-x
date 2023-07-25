@@ -9,9 +9,8 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.7.1",
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
+    "@kuma-ui/core": "^1.1.0",
+    "@kuma-ui/next-plugin": "^1.1.1",
     "framer-motion": "^10.12.17",
     "next": "^13.4.7",
     "react": "^18.2.0",
