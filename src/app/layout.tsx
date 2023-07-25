@@ -1,3 +1,5 @@
+import { KumaRegistry } from "@kuma-ui/next-plugin/registry"
+
 export const metadata = {
   title: '𝔼𝕧𝕖𝕣𝕪𝕥𝕙𝕚𝕟𝕘 𝕏',
 }
@@ -9,7 +11,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <KumaRegistry>{children}</KumaRegistry>
+      </body>
     </html>
   )
 }
